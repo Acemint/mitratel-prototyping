@@ -16,10 +16,10 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
         <a class="navbar-brand" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" href=<<?php echo "/home.php"?>>
-            <img src="<?php echo base_url('icons/placeholder.png'); ?>" width="90" height="30">
+            <img src="<?php echo base_url('icons/placeholder.png'); ?>" width="100" height="30">
         </a>
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active" href="<?php echo "/add_items.php"; ?>">
+            <li class="nav-item active">
                 <a class="nav-link" href="#">Add Work</a>
             </li>
         </ul>
@@ -29,7 +29,7 @@
 
     <div class="container-fluid" id="main-container">
         <div id="main-content">
-            <h3 id="main-title">Mitratel</h3> 
+            <h3 class="title-spacing-primary">Mitratel</h3> 
             <div class="d-flex flex-row" id="search-bar">
                 <div class="mr-auto">
                     <form class="form-inline" method="get" id="search-form">
@@ -68,8 +68,8 @@
                             <td class="align-middle" id="jenis-baris">Survey Asset Stolen</td>
                             <td class="align-middle" id="lokasi-baris">Online</td>
                             <td class="align-middle" id="more-baris">
-                                <button class="button-basic button-primary">View More</button>
-                                <button class="button-basic button-secondary">Print</button>
+                                <button class="button-basic button-tertiary">View More</button>
+                                <button class="button-basic button-primary">Print</button>
                             </td>
                         </tr>
 
@@ -80,8 +80,8 @@
                             <td class="align-middle" id="jenis-baris">Survey Asset Stolen</td>
                             <td class="align-middle" id="lokasi-baris">Online</td>
                             <td class="align-middle" id="more-baris">
-                                <button class="button-basic button-primary">View More</button>
-                                <button class="button-basic button-secondary">Print</button>
+                                <button class="button-basic button-tertiary">View More</button>
+                                <button class="button-basic button-primary">Print</button>
                             </td>
                         </tr>
                     </tbody>

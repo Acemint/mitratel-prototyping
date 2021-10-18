@@ -11,6 +11,13 @@ h1, h2, h3, h4, h5, h6, p {
     font-weight: bold;
 }
 
+/* image properties */
+.clickable{
+    cursor: pointer;
+}
+
+
+/* button */
 .button-basic {
     padding: 6px 12px;
     border: none;
@@ -35,9 +42,9 @@ h1, h2, h3, h4, h5, h6, p {
 
 .button-search {
     margin-left: 4px;
-    border-radius: 0px;
-    background-color: #adadad;
-    color: black;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+
 }
 
 .button-basic:active{
@@ -59,9 +66,14 @@ caption{
     padding: 1em;
 }
 
-#main-title{
-    padding-top: 0.5em;
-    padding-bottom: 1em;
+.title-spacing{
+    padding-top: 1vh;
+    padding-bottom: 4vh;
+}
+
+.title-spacing-primary{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
 
 #search-bar{
@@ -95,9 +107,6 @@ caption{
 }
 
 
-
-
-
 .form-group{
     margin-bottom: 32px;
 }
@@ -105,4 +114,8 @@ caption{
 label{
     font-weight: bold;
     padding-top: 4px;
+}
+
+#list-data{
+    display: none;
 }
